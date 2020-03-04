@@ -75,7 +75,7 @@ class DownPic(threading.Thread):
                     os.makedirs(path)
                     print()
                 else:
-                    print("")
+                    print("777")
                 for pic in values:
                     filename = path +"/"+pic.split('/')[-1]
                     if os.path.exists(filename):
